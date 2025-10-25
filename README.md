@@ -35,7 +35,7 @@ PORT=5000
 MONGO_URI=mongodb+srv://<your-cluster-url>
 JWT_SECRET=your_jwt_secret_key
 
-4️. Run the Server
+4. Run the Server
 
 Run in development mode (with auto-restart via nodemon):
 
