@@ -29,7 +29,7 @@ npm install
 
 3. Configure Environment Variables
 
-Create a file named .env in the project root with the following:
+  Create a file named .env in the project root with the following:
 
 - PORT=5000
 - MONGO_URI=mongodb+srv://<your-cluster-url>
@@ -37,11 +37,6 @@ Create a file named .env in the project root with the following:
 
 4. Run the Server
 
-Run in development mode (with auto-restart via nodemon):
+  Run in development mode (with auto-restart via nodemon):
 
 - npm run dev
-
-
-or run normally:
-
-node server.js
