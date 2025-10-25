@@ -6,19 +6,19 @@ It includes user authentication using JWT and bcryptjs, environment configuratio
 
 # Technologies Used
 
-Node.js (Runtime Environment)
+- Node.js (Runtime Environment)
 
-Express.js (Web Framework)
+- Express.js (Web Framework)
 
-MongoDB + Mongoose (Database & ODM)
+- MongoDB + Mongoose (Database & ODM)
 
-JWT (Authentication)
+- JWT (Authentication)
 
-bcryptjs (Password Hashing)
+- bcryptjs (Password Hashing)
 
-dotenv (Environment Variables)
+- dotenv (Environment Variables)
 
-cookie-parser (Cookie Management)
+- cookie-parser (Cookie Management)
 
 # Setup & Run Instructions
 1. Clone the Repository
@@ -31,15 +31,15 @@ npm install
 
 Create a file named .env in the project root with the following:
 
-PORT=5000
-MONGO_URI=mongodb+srv://<your-cluster-url>
-JWT_SECRET=your_jwt_secret_key
+- PORT=5000
+- MONGO_URI=mongodb+srv://<your-cluster-url>
+- JWT_SECRET=your_jwt_secret_key
 
 4. Run the Server
 
 Run in development mode (with auto-restart via nodemon):
 
-npm run dev
+- npm run dev
 
 
 or run normally:
